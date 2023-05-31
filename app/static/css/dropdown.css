@@ -1,0 +1,16 @@
+/* DROPDOWN STYLES */
+
+.day-dropdown {
+	max-height: 100%;
+	overflow-y: visible;
+}
+
+.month-dropdown {
+	max-height: 100%;
+	overflow-y: visible;
+}
+
+.year-dropdown {
+	max-height: 100%;
+	overflow-y: visible;
+}

@@ -1,0 +1,28 @@
+/* DASH NAVBAR STYLES */
+
+.navbar {
+	background-color: blue;
+	border-bottom: 1px solid #ddd;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.navbar-title {
+	color: black;
+	font-size: 20pt;
+	margin-left: 5vh;
+	margin-top: 2vh;
+}
+
+.navbar-logout-button {
+	margin-right: 10vh;
+	margin-left: 10vh;
+	width: 100px;
+	position: relative;
+}
+.navbutton-icon {
+	margin-left: 10px;
+}

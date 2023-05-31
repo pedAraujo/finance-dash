@@ -1,5 +1,6 @@
 from dash import html, dcc
 from dash.dependencies import Input, Output
+import dash_bootstrap_components as dbc
 
 from . import ids
 from ...data.loader import DataSchema
@@ -22,12 +23,14 @@ def render(app, revenue_data, spendings_data) -> html.Div:
 
     return html.Div(
         children=[
+            dbc.Label("Ano"),
             dcc.Dropdown(
                 id=ids.YEAR_DROPDOWN,
-                options=[{"label": year, "value": year} for year in all_years],
-                value=all_years,
+                className=ids.YEAR_DROPDOWN,
+                options=[{"label": year, "value": year} for year in unique_years],
+                value=unique_years,
                 placeholder="Selecione um ano...",
-                multi=True,
+                multi=False,
             ),
             html.Button(
                 className="dropdown-button",

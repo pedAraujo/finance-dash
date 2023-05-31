@@ -1,11 +1,31 @@
 # import stuff
+import os
+import json
+import firebase_admin
+import logging
+
 from flask import Flask
 from .data.loader import load_transaction_data
+from dotenv import load_dotenv
 
-# from flask_sqlalchemy import SQLAlchemy
+from firebase_admin import credentials
 
-# Globally accessible libraries
-# database = SQLAlchemy()
+load_dotenv()
+
+# logging configuration
+logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler(), logging.FileHandler("logs.log")],
+)
+
+# Firebase initialization
+FIREBASE_ACCESS_JSON = json.loads(os.getenv("FIREBASE_CONFIG"))
+firebase_credentials = credentials.Certificate(FIREBASE_ACCESS_JSON)
+firebase_app = firebase_admin.initialize_app(firebase_credentials)
+
+# Globally accessible variables
 SPENDINGS_PATH = "data/despesas.csv"
 REVENUE_PATH = "data/receita.csv"
 
@@ -17,19 +37,15 @@ def init_app():
     revenue_data = load_transaction_data(REVENUE_PATH)
     spendings_data = load_transaction_data(SPENDINGS_PATH)
 
-    # derive configuration values
     app.config.from_object("config")
 
-    # Initialize Plugins (the global ones)
-    # database.init_app(app)
-
-    # define context
     with app.app_context():
         # Include our Routes
         # from . import routes
+
+        # Register Dashboard
         from .dash.dashboard import init_dashboard
 
         app = init_dashboard(app, revenue_data, spendings_data)
 
-        # Register Blueprints
         return app

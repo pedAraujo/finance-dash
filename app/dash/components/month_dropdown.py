@@ -1,4 +1,5 @@
 from dash import html, dcc
+import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 
 from . import ids
@@ -22,12 +23,14 @@ def render(app, revenue_data, spendings_data) -> html.Div:
 
     return html.Div(
         children=[
+            dbc.Label("Mês"),
             dcc.Dropdown(
                 id=ids.MONTH_DROPDOWN,
-                options=[{"label": month, "value": month} for month in all_months],
-                value=all_months,
+                className=ids.MONTH_DROPDOWN,
+                options=[{"label": month, "value": month} for month in unique_months],
+                value=unique_months,
                 placeholder="Selecione um mês...",
-                multi=True,
+                multi=False,
             ),
             html.Button(
                 className="dropdown-button",
