@@ -44,3 +44,93 @@
 2023-05-30 18:28:37,677 - werkzeug - INFO - 127.0.0.1 - - [30/May/2023 18:28:37] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
 2023-05-30 18:28:39,023 - werkzeug - INFO - 127.0.0.1 - - [30/May/2023 18:28:39] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
 2023-05-30 18:28:40,512 - werkzeug - INFO - 127.0.0.1 - - [30/May/2023 18:28:40] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-02 19:43:43,533 - root - INFO - Dashboard initialized
+2023-06-02 19:44:09,539 - root - INFO - Dashboard initialized
+2023-06-02 19:44:09,540 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-02 19:44:09,540 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-02 19:44:11,999 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:11] "[33mGET / HTTP/1.1[0m" 404 -
+2023-06-02 19:44:16,657 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "GET /dashboard/ HTTP/1.1" 200 -
+2023-06-02 19:44:16,716 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "[36mGET /dashboard/assets/dropdown.css?m=1684384949.1149838 HTTP/1.1[0m" 304 -
+2023-06-02 19:44:16,717 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "[36mGET /dashboard/assets/navbar.css?m=1684383508.9149823 HTTP/1.1[0m" 304 -
+2023-06-02 19:44:16,717 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "[36mGET /dashboard/assets/styles.css?m=1684382505.215733 HTTP/1.1[0m" 304 -
+2023-06-02 19:44:16,804 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2023-06-02 19:44:16,805 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2023-06-02 19:44:16,817 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2023-06-02 19:44:16,821 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2023-06-02 19:44:16,836 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-02 19:44:16,837 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-02 19:44:16,839 - werkzeug - INFO - 127.0.0.1 - - [02/Jun/2023 19:44:16] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-07 20:36:25,113 - root - INFO - Dashboard initialized
+2023-06-07 20:36:25,115 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-07 20:36:25,115 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-07 20:36:46,911 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:46] "[33mGET / HTTP/1.1[0m" 404 -
+2023-06-07 20:36:46,989 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-06-07 20:36:50,266 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/ HTTP/1.1" 200 -
+2023-06-07 20:36:50,318 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/assets/dropdown.css?m=1684384949.1149838 HTTP/1.1" 200 -
+2023-06-07 20:36:50,319 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/assets/navbar.css?m=1684383508.9149823 HTTP/1.1" 200 -
+2023-06-07 20:36:50,321 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/deps/react@16.v2_9_3m1684469056.14.0.min.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,321 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/assets/styles.css?m=1684382505.215733 HTTP/1.1" 200 -
+2023-06-07 20:36:50,321 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/deps/polyfill@7.v2_9_3m1684469056.12.1.min.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,322 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/deps/react-dom@16.v2_9_3m1684469056.14.0.min.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,322 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/deps/prop-types@15.v2_9_3m1684469056.8.1.min.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,323 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v1_4_1m1684469094.min.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,325 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_9_3m1684469056.min.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,326 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_9_2m1684469056.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,328 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_9_2m1684469056.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,329 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_4m1684469056.js HTTP/1.1" 200 -
+2023-06-07 20:36:50,329 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:50] "GET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_11m1684469056.min.js HTTP/1.1" 200 -
+2023-06-07 20:36:51,704 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:51] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2023-06-07 20:36:51,705 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:51] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2023-06-07 20:36:51,709 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:51] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2023-06-07 20:36:51,721 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:51] "GET /dashboard/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+2023-06-07 20:36:51,730 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:51] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-07 20:36:51,731 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:51] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-07 20:36:51,733 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 20:36:51] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-07 21:14:24,406 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "GET /dashboard/ HTTP/1.1" 200 -
+2023-06-07 21:14:24,509 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "[36mGET /dashboard/assets/navbar.css?m=1684383508.9149823 HTTP/1.1[0m" 304 -
+2023-06-07 21:14:24,509 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "[36mGET /dashboard/assets/dropdown.css?m=1684384949.1149838 HTTP/1.1[0m" 304 -
+2023-06-07 21:14:24,510 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "[36mGET /dashboard/assets/styles.css?m=1684382505.215733 HTTP/1.1[0m" 304 -
+2023-06-07 21:14:24,590 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2023-06-07 21:14:24,591 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2023-06-07 21:14:24,609 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2023-06-07 21:14:24,630 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-07 21:14:24,631 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-07 21:14:24,631 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:14:24] "POST /dashboard/_dash-update-component HTTP/1.1" 200 -
+2023-06-07 21:15:17,550 - root - INFO - Dashboard initialized
+2023-06-07 21:15:17,552 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-07 21:15:17,552 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-07 21:15:21,060 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "GET /dashboard/ HTTP/1.1" 200 -
+2023-06-07 21:15:21,110 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "[36mGET /dashboard/assets/navbar.css?m=1684383508.9149823 HTTP/1.1[0m" 304 -
+2023-06-07 21:15:21,110 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "[36mGET /dashboard/assets/dropdown.css?m=1684384949.1149838 HTTP/1.1[0m" 304 -
+2023-06-07 21:15:21,111 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "[36mGET /dashboard/assets/styles.css?m=1684382505.215733 HTTP/1.1[0m" 304 -
+2023-06-07 21:15:21,173 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2023-06-07 21:15:21,174 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2023-06-07 21:15:21,190 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "GET /dashboard/_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 200 -
+2023-06-07 21:15:21,191 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:15:21] "GET /dashboard/_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 200 -
+2023-06-07 21:16:35,807 - root - INFO - Dashboard initialized
+2023-06-07 21:16:35,808 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-07 21:16:35,809 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-07 21:16:39,341 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "GET /dashboard/ HTTP/1.1" 200 -
+2023-06-07 21:16:39,391 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "[36mGET /dashboard/assets/dropdown.css?m=1684384949.1149838 HTTP/1.1[0m" 304 -
+2023-06-07 21:16:39,392 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "[36mGET /dashboard/assets/styles.css?m=1684382505.215733 HTTP/1.1[0m" 304 -
+2023-06-07 21:16:39,393 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "[36mGET /dashboard/assets/navbar.css?m=1684383508.9149823 HTTP/1.1[0m" 304 -
+2023-06-07 21:16:39,455 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2023-06-07 21:16:39,455 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2023-06-07 21:16:39,478 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "[36mGET /dashboard/_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2023-06-07 21:16:39,479 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:16:39] "[36mGET /dashboard/_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2023-06-07 21:18:31,279 - root - INFO - Dashboard initialized
+2023-06-07 21:18:31,280 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-07 21:18:31,280 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-07 21:18:34,113 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "GET /dashboard/ HTTP/1.1" 200 -
+2023-06-07 21:18:34,165 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "[36mGET /dashboard/assets/dropdown.css?m=1684384949.1149838 HTTP/1.1[0m" 304 -
+2023-06-07 21:18:34,165 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "[36mGET /dashboard/assets/navbar.css?m=1684383508.9149823 HTTP/1.1[0m" 304 -
+2023-06-07 21:18:34,166 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "[36mGET /dashboard/assets/styles.css?m=1684382505.215733 HTTP/1.1[0m" 304 -
+2023-06-07 21:18:34,236 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2023-06-07 21:18:34,238 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2023-06-07 21:18:34,254 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "[36mGET /dashboard/_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2023-06-07 21:18:34,256 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2023 21:18:34] "[36mGET /dashboard/_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -

@@ -5,6 +5,7 @@ from . import navbar
 from . import year_dropdown
 from . import month_dropdown
 from . import day_dropdown
+from . import transactions_table
 
 
 def create_layout(dash_app, revenue_data, spendings_data) -> html.Div:
@@ -14,17 +15,7 @@ def create_layout(dash_app, revenue_data, spendings_data) -> html.Div:
         [
             navbar.render(),
             dbc.Row(
-                [
-                    dbc.Col(
-                        [year_dropdown.render(dash_app, revenue_data, spendings_data)]
-                    ),
-                    dbc.Col(
-                        [month_dropdown.render(dash_app, revenue_data, spendings_data)]
-                    ),
-                    dbc.Col(
-                        [day_dropdown.render(dash_app, revenue_data, spendings_data)]
-                    ),
-                ]
+                [transactions_table.render(dash_app, revenue_data, spendings_data)]
             ),
         ],
         fluid=True,

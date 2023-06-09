@@ -1,4 +1,5 @@
 NAVBAR = "navbar"
+TRANSACTIONS_TABLE = "transactions-table"
 YEAR_DROPDOWN = "year-dropdown"
 MONTH_DROPDOWN = "month-dropdown"
 DAY_DROPDOWN = "day-dropdown"
