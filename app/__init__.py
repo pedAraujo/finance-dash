@@ -1,14 +1,14 @@
 # import stuff
-import os
-import json
-import firebase_admin
+# import os
+# import json
+
+# import firebase_admin
 import logging
 
 from flask import Flask
 from .data.loader import load_transaction_data
 from dotenv import load_dotenv
 
-from firebase_admin import credentials
 
 load_dotenv()
 
@@ -20,10 +20,10 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(), logging.FileHandler("logs.log")],
 )
 
-# Firebase initialization
-FIREBASE_ACCESS_JSON = json.loads(os.getenv("FIREBASE_CONFIG"))
-firebase_credentials = credentials.Certificate(FIREBASE_ACCESS_JSON)
-firebase_app = firebase_admin.initialize_app(firebase_credentials)
+# # Firebase initialization
+# FIREBASE_ACCESS_JSON = json.loads(os.getenv("FIREBASE_CONFIG"))
+# firebase_credentials = credentials.Certificate(FIREBASE_ACCESS_JSON)
+# firebase_app = firebase_admin.initialize_app(firebase_credentials)
 
 # Globally accessible variables
 SPENDINGS_PATH = "data/despesas.csv"
